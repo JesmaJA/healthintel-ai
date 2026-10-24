@@ -1,0 +1,32 @@
+.app-shell {
+  min-height: 100vh;
+  background: #f5f8f6;
+}
+
+.app-main {
+  min-height: 100vh;
+  margin-left: 250px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 30px 36px;
+}
+
+@media (max-width: 900px) {
+  .app-main {
+    margin-left: 0;
+  }
+
+  .page-container {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-container {
+    padding: 18px 13px;
+  }
+}
